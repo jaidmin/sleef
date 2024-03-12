@@ -142,7 +142,7 @@ project(SLEEF VERSION ${SLEEF_VERSION} LANGUAGES ${LANGLIST})
 include(GNUInstallDirs)
 
 if(NOT DEFINED sleef_SOURCE_DIR)
-   set(sleef_SOURCE_DIR ${CMAKE_SOURCE_DIR})
+   set(sleef_SOURCE_DIR ${CMAKE_SOURCE_DIR}/third_party/sleef)
 endif()
 
 if(NOT DEFINED sleef_BINARY_DIR)

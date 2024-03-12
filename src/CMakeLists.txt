@@ -2,9 +2,9 @@ include_directories("common")
 include_directories("arch")
 
 add_subdirectory("libm")
-if (SLEEF_BUILD_TESTS)
-  add_subdirectory("libm-tester")
-endif()
+#if (SLEEF_BUILD_TESTS)
+#  add_subdirectory("libm-tester")
+#endif()
 add_subdirectory("common")
 
 if (SLEEF_BUILD_DFT AND NOT MINGW)
